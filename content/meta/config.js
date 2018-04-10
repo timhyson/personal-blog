@@ -1,21 +1,21 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "PersonalBlog - a blog starter for GatsbyJS", // <title>
-  shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
-  siteDescription: "PersonalBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteTitle: "PersonalBlog - a blog built on GatsbyJS", // <title>
+  shortSiteTitle: "Tim Hyson Personal Blog", // <title> ending for posts and pages
+  siteDescription: "Personal Blog built on GatsbyJS.",
+  siteUrl: "http://timhyson.co.uk",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "tim hyson",
+  authorTwitterAccount: "timhyson",
   // info
-  infoTitle: "greg lobinski",
+  infoTitle: "tim hyson",
   infoTitleNote: "personal blog",
   // manifest.json
-  manifestName: "PersonalBlog - a blog starter for GatsbyJS",
+  manifestName: "PersonalBlog - a blog built on GatsbyJS",
   manifestShortName: "PersonalBlog", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.bg,
@@ -23,8 +23,8 @@ module.exports = {
   manifestDisplay: "standalone",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/timhyson" },
+    { name: "twitter", url: "https://twitter.com/timhyson" },
+    { name: "facebook", url: "http://facebook.com/timhyson" }
   ]
 };

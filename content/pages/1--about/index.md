@@ -2,9 +2,9 @@
 title: About
 ---
 
-This is a demo site of the [Personal**Blog**](https://github.com/greglobinski/gatsby-starter-personal-blog) [GatsbyJs](https://www.gatsbyjs.org/) starter.
+This blog is built from a demo site of the [Personal**Blog**](https://github.com/greglobinski/gatsby-starter-personal-blog) [GatsbyJs](https://www.gatsbyjs.org/) starter.
 
-The starter is a ready to use, easy to customize 'like theme' starter. It has everything what blog should have and some more.
+The starter is a ready to use, easy to customize 'like theme' starter. It has everything a blog should have and more.
 
 ### Standard features:
 
@@ -25,7 +25,7 @@ The starter is a ready to use, easy to customize 'like theme' starter. It has ev
 ### Advanced features:
 
 * Easy customizable base **styles** via `theme` object (fonts, colors, sizes)
-* **Components** leazy loading (social sharing, comments)
+* **Components** lazy loading (social sharing, comments)
 * **ESLint** (google config)
 * **Prettier** code styling
 * Custom webpack `CommonsChunkPlugin` settings
@@ -38,8 +38,5 @@ For detailed instructions go to [Greg for Gatsby](https://forgatsby.greglobinski
 
 ## About me
 
-My name is **Greg**. I am a front-end web developer. I love working with [GatsbyJs](https://www.gatsbyjs.org/). I love the UX it delivers out of the box for the end users and DX it provides to me as a developer. I decided to share the love by contributing in this way, sharing my code as starters. I hope somebody find that useful.
+My name is **Tim**. I am a front-end web developer. I have two goals with this site: to develop my knowledge of working with [GatsbyJs](https://www.gatsbyjs.org/), and to build a personal blog about my learnings. I hope it can be of interest to someone else.
 
-For sure it's not my last [Gatsby starter](/starters). If you want to be in touch follow my on Twitter [@greglobinski](https://twitter.com/greglobinski)
-
-PS: Please be understanding. The English language is not my native language. If you find any bug or not clear words you can always do PR to [gatsby-starter-personal-blog](https://github.com/greglobinski/gatsby-starter-personal-blog), the repo contains the actual code of this demo.
