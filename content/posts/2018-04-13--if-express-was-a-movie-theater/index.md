@@ -39,7 +39,7 @@ const express = require('express' 4.16.3);
 const app = express();
 ```
 
-These two lines at the top of our app.js file bring in our manager. And our manager's name is `app`. Which is an unusual name, but it's easier to say than calling `"'express' 4.16.3"` every time refer to them.
+These two lines at the top of our app.js file bring in our manager. And our manager's name is `app`. Which is an unusual name, but it's easier to say than calling `"'express' 4.16.3"` every time we refer to them.
 
 ## Middleware ensures customers abide by the rules
 
@@ -71,7 +71,7 @@ So we pass an anonymous function to our middleware, which takes three parameters
 
 In lines 2 - 4 we inspect the request, and in lines 6 - 8 we make sure that the customer has a ticket, and that the customer is old enough, before proceeding.
 
-Great, now we can be sure that we're carrying out the appropriate checks. But this code will run on every request - even when the customer orders popcorn or asks for directions to the restrooms. Not so great.
+Great, now we can be sure that we're carrying out the appropriate checks. But this code will run on every request - we're checking tickets and date-of-birth, even when the customer orders popcorn or asks for directions to the restrooms. Not so great.
 
 To deal with this, we pass our middleware function an additional parameter: a route on which to run these checks. Maybe we only want to run these checks when a customer wants to go to into a film:
 
